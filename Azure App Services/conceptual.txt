@@ -1,0 +1,12 @@
+-Describe the steps to deploy a simple Node.js application to Azure App Services.
+Have Node.js, npm, azure app service extension installed
+
+1. Create a simple Node.js application with express
+2. Sign into Azure and create a new web app
+3. Configure your settings like webapp name, resource group, runtime, operating system, and location
+4. Select yes for "Always deploy the workspace.." to ensure Visual Studio Code deploys to the same App service
+5. Wait for the deployment to complete and select browse website in the popup to see your page
+
+-What is a common benefit of using Azure App Services for hosting applications?
+The most common benefits of using Azure App Services is it's a managed platform. It has built-in support for
+CI/CD, scalability, and maintenance through integrated monitoring making it very easy for rapid development.

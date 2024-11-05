@@ -1,0 +1,6 @@
+What is a primary key in PostgreSQL, and why is it important?
+
+A primary key in PostgreSQL is a column or a set of columns of uniqely identifies each row in a table.
+
+It's important because primary keys enforce data integrity by preventing duplicates and null values.
+Querying is also more efficient because helps locate specific rows, since each row has a unique identifier.

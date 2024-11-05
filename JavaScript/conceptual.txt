@@ -1,0 +1,13 @@
+What are the differences between `==` and `===` in JavaScript?
+
+`==` is the equality operator and `===` is the strict equality operator.
+The main difference between these two comparison operators is how they compare values.
+`==` compares two values after doing a type conversion.
+`===` compares two values without doing a type conversion
+
+For example:
+let num = 10;
+let str = '10';
+
+console.log(num == str); This would output true because the values are the same after type conversion
+console.log(num === str); This would output false because the values are two different types

@@ -1,0 +1,10 @@
+How does Node.js handle asynchronous operations, and why is this beneficial?
+
+Node.js is able to handle asynchronous operations through an event loop and it's non-blocking architecture.
+When operations like reading a file or a network request is initiated, Node.js offloads that work to the 
+system so it doesn't impede on the main execution code. Then it uses callbacks to get that information 
+whenever the main thread is available.
+
+This is beneficial because it has better performance since asynchronous operations can be run without 
+blocking the main thread and it improves scalability allowing Node.js to handle simultaneous connections 
+which is ideal for use cases with APIs and real-time applications. 

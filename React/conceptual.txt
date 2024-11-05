@@ -1,0 +1,10 @@
+What is the purpose of React's `useEffect` hook? Provide an example use case.
+
+The `useEffect` hook is used to perform side effects in your components. Some examples include data fetching, DOM manipulation, subscribing to events, etc
+
+One example use case is on our counter code, we can use useEffect to console.log the count number.
+A "side effect" of incrementing or decrementing our counter.
+
+useEffect(()=>{
+    console.log("the count number: ", count)
+}, [count])

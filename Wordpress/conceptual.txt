@@ -1,0 +1,5 @@
+What is the difference between a WordPress post and a page?
+
+Posts and pages are both content types but show content differently.
+Posts are for more dynamic content like articles, blog posts, and recipes. Meant to be updated regularly.
+Pages are for more static content like an about me page. Which stay relatively the same.
