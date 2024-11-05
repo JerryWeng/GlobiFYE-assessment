@@ -2,7 +2,19 @@
 
 #### Conceptual Questions:
 
-##### JavaScript
+- [GlobiFYE-assessment](#globifye-assessment)
+      - [Conceptual Questions:](#conceptual-questions)
+        - [JavaScriptS](#javascripts)
+        - [React](#react)
+        - [Node.js](#nodejs)
+        - [Next.js](#nextjs)
+        - [PostgreSQL](#postgresql)
+        - [Azure App Services](#azure-app-services)
+        - [WordPress](#wordpress)
+
+---
+
+##### JavaScriptS
 
 1. What are the differences between `==` and `===` in JavaScript?
 
